@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="demo">
+    <head>
+        <meta charset="utf-8">
+        <title>AngularJS display-mask</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.js"></script>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">
+
+        <script src="../dist/enter.js"></script>
+    </head>
+
+    <body class="container">
+
+        <script>
+            var app = angular.module('demo', ['enter']);
+        </script>
+        <section id="mask">
+            <div class="page-header">
+                <h1>Enter
+                    <small><a href="https://github.com/alairjt/enter">GitHub</a></small>
+                </h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>What?</h3>
+
+                    <p>Execute command on press enter.</p>
+                    <form name="demo" class="form-horizontal">
+                        <div class="form-group">
+                            <div class="col-sm-12" ng-init="vm = {pressEnter: false, count: 0}">
+                                <input id="input-enter" on-enter="vm.count = vm.count + 1" placeholder="Press enter" type="text" />
+                                <br/>
+                                <span id="span-result" class="help-inline">
+                                    <strong>Contador: {{vm.count}} </strong>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="col-md-6">
+                    <h3>How?</h3>
+                    <p>In HTML.</p>
+                    <pre class="prettyprint">&lt;input on-enter="vm.count = vm.count + 1" placeholder="Press enter" type="text" /></pre>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>

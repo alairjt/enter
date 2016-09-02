@@ -1,2 +1,2 @@
 # enter
-AngularJS Directive for run whatever on press enter
+AngularJS Directive for to execute command on press enter

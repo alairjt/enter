@@ -1,0 +1,34 @@
+{
+    "name": "enter",
+    "version": "0.0.1",
+    "homepage": "https://github.com/alairjt/enter",
+    "authors": [
+        "alair.tavares <alair.tavares@nexxera.com>"
+    ],
+    "description": "AngularJS Directive for to execute command on press enter .",
+    "main": "dist/enter.js",
+    "dependencies": {
+        "angular": "^1.5.0",
+        "angular-mocks": "^1.5.0",
+        "jquery": "^3.1.0"
+    },
+    "keywords": [
+        "AngularJS",
+        "Angular",
+        "Filter",
+        "mask",
+        "display",
+        "custom",
+        "apply",
+        "generic",
+        "value"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
