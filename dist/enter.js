@@ -1,7 +1,7 @@
 /*!
  * enter
  * https://github.com/alairjt/enter
- * Version: 1.0.1 - 2016-09-02T19:30:16.613Z
+ * Version: 1.0.2 - 2016-09-02T19:36:44.492Z
  * License: MIT
  */
 
