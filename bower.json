@@ -1,6 +1,6 @@
 {
     "name": "enter",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "homepage": "https://github.com/alairjt/enter",
     "authors": [
         "alair.tavares <alair.tavares@nexxera.com>"
@@ -15,9 +15,13 @@
     "keywords": [
         "AngularJS",
         "Angular",
-        "Filter",
-        "mask",
-        "display",
+        "directive",
+        "onenter",
+        "enter",
+        "press",
+        "key",
+        "onkeypress",
+        "keypress",
         "custom",
         "apply",
         "generic",
