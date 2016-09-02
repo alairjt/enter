@@ -28,7 +28,7 @@ AngularJS Directive for to execute command on press enter
    ```javascript
    angular.module('yourApp', ['enter']);
    ```
-3. **Use the avaiable patterns to create your mask. Set the mask attribute.**
+3. **Add directive to input.**
 
    ```html
    <input id="input-enter" on-enter="vm.count = vm.count + 1" placeholder="Press enter" type="text" /><
